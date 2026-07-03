@@ -1,1 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            padding: 20px;
+        }
+        nav ul{
+            display: flex;
+            background-color:#333;
+            justify-content: center;
+            list-style: none;
+        }
+        nav ul li{
+            display: flex;
+            margin-right: 20px;
+        }
+        nav ul li a{
+            color: #fff;
+            text-decoration: none;
+        }
+        .container{
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .box{
+            flex: 1;
+            background-color: #d11f1f;
+            padding: 20px;
+            text-align: center;
+        }
+        img{
+            width:100%;
+            max-width: 700px;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
 
+        @media screen and (max-width:768px){
+            body{
+                font-size: 16px;
+                padding: 10px;
+            }
+            nav ul{
+                flex-direction: column;
+                text-align: center;
+            }
+            .container{
+                flex-direction: column;
+            }
+            .box{
+                padding: 20px;
+            }
+            h1{
+                font-size: 24px;
+            }
+            img{
+                max-width: 100%;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>My Website</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="box">Column 1</div>
+        <div class="box">Column 2</div>
+        <div class="box">Column 3</div>
+    </div>
+
+    <img src="Image.jpg" alt="Image 1" >
+</body>
+</html>
