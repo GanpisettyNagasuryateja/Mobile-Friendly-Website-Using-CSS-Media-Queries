@@ -23,18 +23,29 @@ Convert an existing desktop-only webpage into a mobile-friendly webpage using CS
 
 ## Topics Covered
 
-- Responsive Web Design (RWD)
-- CSS Media Queries
-- CSS Selectors
-- CSS Properties
-- Flexible Layouts (Flexbox)
-- Responsive Navigation Menu
-- Responsive Images
-- Typography Adjustment
-- Viewport Meta Tag
-- Chrome DevTools Device Toolbar
-- Overflow and Scrolling Handling
-- Mobile-Friendly Web Design
+### Responsive Web Design (RWD)
+Responsive Web Design is a technique used to create webpages that automatically adapt to different screen sizes, providing a consistent user experience across desktops, tablets, and mobile devices.
+
+### CSS Media Queries
+Media Queries allow different CSS styles to be applied based on the device's screen size. They are the key feature used to make webpages responsive.
+
+### Flexible Layouts
+The webpage layout was modified to adjust according to screen size. Multiple columns on desktop screens become a single-column layout on mobile devices.
+
+### Responsive Navigation
+The navigation menu changes from a horizontal layout on desktops to a vertical layout on smaller screens, making navigation easier on mobile devices.
+
+### Responsive Images
+Images automatically resize within their containers while maintaining their aspect ratio, preventing overflow and improving display on smaller screens.
+
+### Typography Adjustment
+Font sizes and spacing were adjusted for smaller screens to improve readability and provide a better user experience.
+
+### Chrome DevTools Testing
+Chrome DevTools Device Toolbar was used to test the webpage on different screen sizes and verify that the responsive layout worked correctly.
+
+### Overflow Handling
+Responsive styling was applied to eliminate horizontal scrolling and ensure all webpage content remains within the visible screen area.
 
 ## Outcome
 The webpage was successfully converted into a responsive design. The layout, navigation menu, text, and images automatically adjust to different screen sizes, providing an improved user experience on desktops, tablets, and smartphones.
